@@ -12,12 +12,19 @@
   height: 100%;
 }
 
+.card-wrap:hover .img-container {
+  opacity: 0.9;
+}
+
 .img-container {
   height: 180px;
-  background-image: url("../../images/wavely-about-page.png");
-  background-position: center; /* Center the image */
+  width: 100%;
+  background-image: url("../../images/banner-background.png");
+  background-position: 50% 50%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 // .company-img {
@@ -25,6 +32,19 @@
 // }
 
 .content-wrap {
-  padding: 3em 1.5em 1.5em 1.5em;
+  padding: 0 1.5em 1em 1.5em;
   font-family: $fontFamily;
+}
+
+@media only screen and (min-width: 580px) {
+  .card-wrap {
+    flex: 0 1 42.8%;
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .card-wrap {
+    flex: 0 1 29.4%;
+  }
 }

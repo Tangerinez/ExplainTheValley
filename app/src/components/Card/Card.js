@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.scss";
+import ReactBlock from "../ReactBlock/ReactBlock";
 import CompanyInfo from "../CompanyInfo/CompanyInfo";
 import Footer from "../Footer/Footer";
 
@@ -13,6 +14,7 @@ function Card(props) {
           alt="company-img"
         /> */}
       </div>
+      <ReactBlock />
       <div className="content-wrap">
         <CompanyInfo
           name={props.name}
