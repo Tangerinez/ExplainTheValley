@@ -7,15 +7,20 @@ function Card(props) {
   return (
     <div className="card-wrap">
       <div className="img-container">
-        <img
+        {/* <img
           src={require("../../images/wavely-about-page.png")}
           className="company-img"
           alt="company-img"
-        />
+        /> */}
       </div>
       <div className="content-wrap">
-        <CompanyInfo />
-        <Footer />
+        <CompanyInfo
+          name={props.name}
+          industry={props.industry}
+          location={props.location}
+          employees={props.employees}
+        />
+        <Footer jobs={props.jobs} />
       </div>
     </div>
   );

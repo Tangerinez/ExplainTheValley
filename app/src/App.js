@@ -14,7 +14,7 @@ function App() {
       />
       <Card
         name="Company2"
-        industry="Artificial Intelligence/Machine Learning, SaaS"
+        industry="Artificial Intelligence/Machine Learning, SaaS.."
         location="Clichy"
         employees="15 to 50"
         jobs="0"
@@ -42,7 +42,7 @@ function App() {
       />
       <Card
         name="Company6"
-        industry="Home Care Services, Organization/Management"
+        industry="Home Care Services, Organization/Managem.."
         location="Dumbo, Paris"
         employees="15 to 50"
         jobs="2"
