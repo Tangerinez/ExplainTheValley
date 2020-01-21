@@ -1,0 +1,20 @@
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2em 0;
+  height: 100%;
+  background-color: white;
+}
+
+.img-container {
+}
+
+.company-img {
+  width: 100%;
+}
+
+.content-wrap {
+  padding: 2em 1.5em 1.5em 1.5em;
+}

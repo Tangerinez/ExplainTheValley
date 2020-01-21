@@ -1,0 +1,14 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5em;
+}
+
+.like-icon,
+.job-number {
+  width: 100%;
+}
+
+.like-icon {
+  text-align: right;
+}

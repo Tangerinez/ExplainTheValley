@@ -1,0 +1,17 @@
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.industry,
+.location,
+.employees {
+  margin-top: 3px;
+  font-size: 14px;
+}
