@@ -3,6 +3,10 @@
   background-color: rgb(247, 247, 247);
 }
 
+body {
+  margin: 0;
+}
+
 @media only screen and (min-width: 580px) {
   .App {
     display: flex;

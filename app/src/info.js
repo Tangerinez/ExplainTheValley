@@ -8,21 +8,21 @@ const companyInfo = [
   },
   {
     name: "Company2",
-    industry: "Artificial Intelligence/Machine Learning, SaaS..",
+    industry: "Machine Learning",
     location: "Clichy",
     employees: "15 to 50",
     jobs: "0"
   },
   {
     name: "Company3",
-    industry: "Digital, SaaS/Cloud Services",
+    industry: "Digital, SaaS",
     location: "Paris, Lebege, Lille",
     employees: "50 to 250",
     jobs: "18"
   },
   {
     name: "Company4",
-    industry: "E-commerce, IT/Digital, SaaS/Cloud Services",
+    industry: "E-commerce, IT/Digital",
     location: "Toulose",
     employees: "15 to 50",
     jobs: "3"
@@ -36,7 +36,7 @@ const companyInfo = [
   },
   {
     name: "Company6",
-    industry: "Home Care Services, Organization/Managem..",
+    industry: "Home Care Services",
     location: "Dumbo, Paris",
     employees: "15 to 50",
     jobs: "2"
