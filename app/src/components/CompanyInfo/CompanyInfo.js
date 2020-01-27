@@ -12,6 +12,9 @@ function CompanyInfo(props) {
           className="industry-img"
         />
         <div className="industry">{props.industry}</div>
+        <div className="pop-up">
+          <div className="pop-up-text">{props.industry}</div>
+        </div>
       </div>
       <div className="info-wrap">
         <img

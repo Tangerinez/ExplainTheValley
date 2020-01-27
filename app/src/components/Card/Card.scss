@@ -3,13 +3,20 @@
 .card-wrap {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   border-radius: 5px;
   margin: 2em 0;
   height: 100%;
   background-color: white;
   cursor: pointer;
   height: 100%;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card-wrap:hover {
+  top: -10px;
 }
 
 .card-wrap:hover .img-container {
